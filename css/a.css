@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Permanent+Marker');
+
+
+h1{
+    /* font-family: 'Permanent Marker', cursive; */
+    font-family: 'Homemade Apple', cursive;
+    font-size: 40px;
+    font-kerning: 10px;
+}
+
+
+#myCanvas {
+ 	border: 1px solid black;
+}
+
+#drawhere{
+	width: 300px;
+}
+#canvasOut{
+	display: none;
+}
+
+#xsave{
+}
+
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    width: 50px;
+    color: white;
+    padding: 15px 25px;
+    margin: 5px 5px;
+    text-align: center;
+    font-size: 14px;
+    cursor: default;
+    border-radius: 8%;
+    display: inline-block;
+}

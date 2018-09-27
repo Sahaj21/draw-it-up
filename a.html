@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Canvas Draw</title>
+    <link rel="stylesheet" href="css/a.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <h1>Draw It Up</h1>
+
+
+    <canvas id="myCanvas" width="800" height="400"></canvas>
+    <div id="drawhere">
+        <div id="xsave" class="button">Save</div>
+        <div id="xclear" class="button">Clear</div>
+        
+        <a id="xdownload" href="#" class="button" download="myCanvasDrawing.png">Download</a>
+
+        <br>
+        <label for="pen-color">Choose a color:</label>
+        <input id="pen-color" type="color" />
+        
+        <br>
+        <label for="pen-width">Choose a stroke width</label>
+        <input id="pen-width" type="range" min="1" max="20" />
+
+    </div>
+    <img id="canvasOut" >
+
+
+    <script src='js/script.js'></script>
+</body>
+
+</html>
