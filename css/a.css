@@ -11,10 +11,12 @@ h1{
 
 #myCanvas {
  	border: 1px solid black;
+	
 }
 
 #drawhere{
 	width: 300px;
+	box-shadow: 5px 10px #888888;
 }
 #canvasOut{
 	display: none;
