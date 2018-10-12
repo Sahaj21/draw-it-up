@@ -6,15 +6,27 @@ h1{
     font-family: 'Homemade Apple', cursive;
     font-size: 40px;
     font-kerning: 10px;
+	align: center;
+	font-weight: bold;
+	font-variant: normal;
 }
 
 
 #myCanvas {
  	border: 1px solid black;
+	    padding-top: 50px;
+    	padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
 }
 
 #drawhere{
 	width: 300px;
+	    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
 }
 #canvasOut{
 	display: none;
